@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <table id="first">
+        <style>
+            #first,
+            #first tr,
+            #first td {
+                border: 5px solid wheat;
+                border-collapse: collapse;
+                background-color: wheat;
+            }
+            
+            #first td,
+            #first tr {
+                padding: 25px;
+                text-align: center;
+                background-color: white;
+            }
+        </style>
+        <tr>
+            <td>1</td>
+            <td colspan="4">2</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">3</td>
+            <td style="background-color:tomato;">4</td>
+            <td style="background-color:tomato;">5</td>
+            <td rowspan="2" style="background-color: yellow;">6</td>
+        </tr>
+
+        <tr>
+            <td style="background-color:tomato;">7</td>
+            <td style="background-color:tomato;">8</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="background-color: yellow;">9</td>
+            <td colspan="2" style="background-color: yellow;">10</td>
+        </tr>
+    </table>
+
+    <table id="second">
+        <style>
+            #second,
+            #second tr,
+            #second td {
+                border-style: double;
+                border-color: black;
+            }
+            
+            #second td,
+            #second tr {
+                padding: 15px;
+                text-decoration: underline;
+                color: red;
+                background-color: wheat;
+            }
+            
+            #seperate td {
+                color: black;
+                text-decoration: none;
+                text-align: center;
+            }
+        </style>
+        <tr id="seperate">
+            <td>(1)</td>
+            <td>(2)</td>
+            <td>(3)</td>
+            <td colspan="3">(4)</td>
+            <td>(5)</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td colspan="5">Part I</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">Chapter 1</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion A</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion B</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">Chapter 2</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion A</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion B</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td colspan="5">Part II</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">Chapter 3</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion A</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion B</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">Chapter 4</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion A</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">Scetion B</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
